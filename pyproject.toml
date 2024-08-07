@@ -6,11 +6,12 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.13"
+python = "3.12.4"
+llvmlite = "0.43.0"
 scanpy = "^1.10.2"
-squidpy = "^1.6.0"
+squidpy = "^1.2.2"
 imageio = "^2.34.2"
-
+boto3 = "1.34.155"
 
 [build-system]
 requires = ["poetry-core"]
